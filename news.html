@@ -1,337 +1,250 @@
-<!doctype html>
 
-<head>
-
-		<style type="text/css" id="wp-custom-css">
-			/*
-ここに独自の CSS を追加することができます。
-
-詳しくは上のヘルプアイコンをクリックしてください。
-*/
-
-/* マーカー強調カスタマイズ */
-.marker1 {
-  background: linear-gradient(transparent 50%, #FFFF66 40%);
+// Javascript code with syntax highlighting.
+var fun = function lang(l) {
+  dateformat.i18n = require('./lang/' + l)
+  return true;
 }
-
-/* 見出しタグ */
-
-.entry-content h3{
-background: #F3F3F3;
-padding: 12px;
-}
-
-.entry-content h4{
-border-bottom: 3px solid #CCCCCC;
-padding: .5em 0;
-}
-
-/* テーブルタグ */
-
-td, th {
-padding: 2px;
-}
-
-table{
-width:100%;
-}
-
-.scroll{overflow-x: scroll;
--webkit-overflow-scrolling:touch;}
-
-/*tableにスクロールバーを追加*/
-
-.scroll::-webkit-scrollbar{ height: 5px;
-}
-
-/*tableにスクロールバーを追加*/
-
-.scroll::-webkit-scrollbar-track{
- background: #eee;
-}
-
-/*tableにスクロールバーを追加*/
-
-.scroll::-webkit-scrollbar-thumb {background: #666;}
-
-/* フォント変更 */
-body {
-font-family: 'メイリオ', Meiryo,'ヒラギノ角ゴ StdN','Hiragino Kaku Gothic StdN','ヒラギノ角ゴシック','Hiragino Sans','Yu Gothic UI','Arial Black','Arial',sans-serif;
-}
-
-/* メイン領域にドロップシャドウ */
-
-@media only screen and (min-width: 768px) {
- #inner-content,
- #breadcrumb,
- #inner-header,
- #footer-top .inner,
- .footer .inner,
- #custom_header{
- -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
- -moz-box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
- box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
- }
-}		</style>
-		
-<!-- START - Open Graph and Twitter Card Tags 3.0.0 -->
- <!-- Facebook Open Graph -->
-  <meta property="og:locale" content="ja_JP"/>
-  <meta property="og:site_name" content="USJハック"/>
-  <meta property="og:title" content="【USJルパン三世グッズ2020】タオル、帽子、キーホルダー、ネクタイ、Tシャツ等のグッズを一挙ご紹介！"/>
-  <meta property="og:url" content="https://usjhack.com/lupin3rd-goods2020/"/>
-  <meta property="og:type" content="article"/>
-  <meta property="og:description" content="ルパン三世はUSJとクールジャパン2020でコラボしています。
-
-ルパン三世とUSJのコラボは2020年1月21日（火）から6月28日（日）の期間限定で開催中。
-
-ルパン三世のグッズは色合いが落ち着いているものが多いため普段使いもできるでしょう。
-
-USJ限定のルパン三世グッズの詳細や価格、販売場所などを詳しくご紹介します！
+# Ruby code with syntax highlighting
+GitHubPages::Dependencies.gems.each do |gem, version|
+  s.add_dependency(gem, "= #{version}")
+end
 
 
-USJルパン三世グッズはシック！峰不二子グッズも登場
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <title>キリ！っと日常 / Giraffe Moon city </title>
+        <meta name="description" content="ブレンドコーヒーとヘルシーなオーガニックフードを提供するカフェ">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS -->
+        <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+
+        <link rel="icon" type="image/png" href="images/favicon.png１.png">
+
+    </head>
+
+    <body>
+
+      <body>
+          <div id="news" class="big-bg">
 
 
-USJとルパン三世のコラボグッズは、シックなものが多いため大人も仕事やプライベートで使用できるでしょう。
+              <header class="page-header wrapper">
 
-シャンパングラスセットなど、大人向けの商品も多く取り揃えています。"/>
-  <meta property="og:image" content="https://usjhack.com/wp/wp-content/uploads/2020/02/無題48-2.png"/>
-  <meta property="og:image:url" content="https://usjhack.com/wp/wp-content/uploads/2020/02/無題48-2.png"/>
-  <meta property="og:image:secure_url" content="https://usjhack.com/wp/wp-content/uploads/2020/02/無題48-2.png"/>
-  <meta property="article:published_time" content="2020-05-21T13:24:16+09:00"/>
-  <meta property="article:modified_time" content="2020-05-21T13:24:16+09:00" />
-  <meta property="og:updated_time" content="2020-05-21T13:24:16+09:00" />
-  <meta property="article:section" content="グッズ"/>
-  <meta property="article:publisher" content="https://www.facebook.com/usjhack/"/>
-  <meta property="fb:app_id" content="294457274285229"/>
- <!-- Google+ / Schema.org -->
-  <meta itemprop="name" content="【USJルパン三世グッズ2020】タオル、帽子、キーホルダー、ネクタイ、Tシャツ等のグッズを一挙ご紹介！"/>
-  <meta itemprop="headline" content="【USJルパン三世グッズ2020】タオル、帽子、キーホルダー、ネクタイ、Tシャツ等のグッズを一挙ご紹介！"/>
-  <meta itemprop="description" content="ルパン三世はUSJとクールジャパン2020でコラボしています。
+                  <h1><a href="index.html"><img class="logo" src="images/logo.svg" alt=""></a></h1>
+                  <nav>
+                      <ul class="main-nav">
+                          <li><a href="news.html">キリ！っと日常</a></li>
+                          <li><a href="newu.html">日常Insta</a></li>
+                          <li><a href="contact.html">Contact</a></li>
+                      </ul>
+                  </nav>
 
-ルパン三世とUSJのコラボは2020年1月21日（火）から6月28日（日）の期間限定で開催中。
+              </header>
 
-ルパン三世のグッズは色合いが落ち着いているものが多いため普段使いもできるでしょう。
-
-USJ限定のルパン三世グッズの詳細や価格、販売場所などを詳しくご紹介します！
+              <div class="wrapper">
+                 <h2 class="page-title">キリ！っと日常</h2>
+              </div><!-- /.wrapper -->
 
 
-USJルパン三世グッズはシック！峰不二子グッズも登場
+          </div><!-- /#home -->
+      </body>
 
+      <div class="news-contents wrapper">
 
-USJとルパン三世のコラボグッズは、シックなものが多いため大人も仕事やプライベートで使用できるでしょう。
+            <article>
+                <header class="post-info">
+                    <h2 class="post-title">サイトを立ち上げました！独学のオススメ方法をキリッと紹介 </h2>
+                    <p class="post-date">6/08 <span>2020</span></p>
+                    <p class="post-cat">カテゴリー：ブログ / 日記</p>
+                </header>
 
-シャンパングラスセットなど、大人向けの商品も多く取り揃えています。"/>
-  <meta itemprop="image" content="https://usjhack.com/wp/wp-content/uploads/2020/02/無題48-2.png"/>
-  <meta itemprop="datePublished" content="2020-05-21"/>
-  <meta itemprop="dateModified" content="2020-05-21T13:24:16+09:00" />
-  <meta itemprop="author" content="早川 つかさ"/>
-  <!--<meta itemprop="publisher" content="USJハック"/>--> <!-- To solve: The attribute publisher.itemtype has an invalid value -->
- <!-- Twitter Cards -->
-  <meta name="twitter:title" content="【USJルパン三世グッズ2020】タオル、帽子、キーホルダー、ネクタイ、Tシャツ等のグッズを一挙ご紹介！"/>
-  <meta name="twitter:url" content="https://usjhack.com/lupin3rd-goods2020/"/>
-  <meta name="twitter:description" content="ルパン三世はUSJとクールジャパン2020でコラボしています。
-
-ルパン三世とUSJのコラボは2020年1月21日（火）から6月28日（日）の期間限定で開催中。
-
-ルパン三世のグッズは色合いが落ち着いているものが多いため普段使いもできるでしょう。
-
-USJ限定のルパン三世グッズの詳細や価格、販売場所などを詳しくご紹介します！
-
-
-USJルパン三世グッズはシック！峰不二子グッズも登場
-
-
-USJとルパン三世のコラボグッズは、シックなものが多いため大人も仕事やプライベートで使用できるでしょう。
-
-シャンパングラスセットなど、大人向けの商品も多く取り揃えています。"/>
-  <meta name="twitter:image" content="https://usjhack.com/wp/wp-content/uploads/2020/02/無題48-2.png"/>
-  <meta name="twitter:card" content="summary_large_image"/>
-  <meta name="twitter:creator" content="@https://twitter.com/0520haya"/>
-  <meta name="twitter:site" content="@usjhack"/>
- <!-- SEO -->
- <!-- Misc. tags -->
- <!-- is_singular -->
-<!-- END - Open Graph and Twitter Card Tags 3.0.0 -->
-	
-
-</head>
-
-<body class="post-template-default single single-post postid-10326 single-format-standard bg pannavi_on h_default sidebarright date_on">
-<div id="container" class="  date_on">
-
-<p class="site_description">ユニバーサルスタジオジャパン攻略ブログ</p><header class="header animated fadeIn bg headercenter" role="banner">
-<div id="inner-header" class="wrap cf">
-<div id="logo" class="gf ">
-<p class="h1 img"><a href="https://usjhack.com"><img src="https://usjhack.com/wp/wp-content/uploads/2016/11/タイトルロゴ（メイリオ）.png" alt="USJハック"></a></p>
-</div>
-
-<nav id="g_nav" role="navigation">
-<a href="#searchbox" data-remodal-target="searchbox" class="nav_btn search_btn"><span class="text gf">search</span></a>
-
-<ul id="menu-%e3%82%b0%e3%83%ad%e3%83%bc%e3%83%90%e3%83%ab%e3%83%a1%e3%83%8b%e3%83%a5%e3%83%bc" class="nav top-nav cf"><li id="menu-item-2044" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2044"><a href="https://usjhack.com/category/attraction/">アトラクション</a></li>
-<li id="menu-item-2047" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2047"><a href="https://usjhack.com/category/restaurant/">レストラン</a></li>
-<li id="menu-item-2048" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2048"><a href="https://usjhack.com/category/shop/">ショップ</a></li>
-<li id="menu-item-2046" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2046"><a href="https://usjhack.com/category/access/">アクセス</a></li>
-<li id="menu-item-2045" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2045"><a href="https://usjhack.com/category/hotel/">ホテル</a></li>
-<li id="menu-item-2049" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2049"><a href="https://usjhack.com/category/info/">基本情報</a></li>
-<li id="menu-item-2050" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2050"><a href="https://usjhack.com/category/capture/">攻略テクニック</a></li>
-<li id="menu-item-2051" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2051"><a href="https://usjhack.com/category/useful/">お役立ち情報</a></li>
-<li id="menu-item-2052" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2052"><a href="https://usjhack.com/contact/">お問い合わせ</a></li>
-</ul></nav>
-
-<a href="#spnavi" data-remodal-target="spnavi" class="nav_btn"><span class="text gf">menu</span></a>
-
-
-</div>
-</header>
-
-
-<div class="remodal" data-remodal-id="spnavi" data-remodal-options="hashTracking:false">
-<button data-remodal-action="close" class="remodal-close"><span class="text gf">CLOSE</span></button>
-<ul id="menu-%e3%82%b0%e3%83%ad%e3%83%bc%e3%83%90%e3%83%ab%e3%83%a1%e3%83%8b%e3%83%a5%e3%83%bc-1" class="sp_g_nav nav top-nav cf"><li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2044"><a href="https://usjhack.com/category/attraction/">アトラクション</a></li>
-<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2047"><a href="https://usjhack.com/category/restaurant/">レストラン</a></li>
-<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2048"><a href="https://usjhack.com/category/shop/">ショップ</a></li>
-<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2046"><a href="https://usjhack.com/category/access/">アクセス</a></li>
-<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2045"><a href="https://usjhack.com/category/hotel/">ホテル</a></li>
-<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2049"><a href="https://usjhack.com/category/info/">基本情報</a></li>
-<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2050"><a href="https://usjhack.com/category/capture/">攻略テクニック</a></li>
-<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2051"><a href="https://usjhack.com/category/useful/">お役立ち情報</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2052"><a href="https://usjhack.com/contact/">お問い合わせ</a></li>
-</ul><button data-remodal-action="close" class="remodal-close"><span class="text gf">CLOSE</span></button>
-</div>
+        <p>
+          <img src= "images/wall.jpg"alt=”100″class="yohaku1"><br>
+                          </p>
 
 
 
-<div class="remodal searchbox" data-remodal-id="searchbox" data-remodal-options="hashTracking:false">
-<div class="search cf"><dl><dt>キーワードで記事を検索</dt><dd><form role="search" method="get" id="searchform" class="searchform cf" action="https://usjhack.com/" >
-		<input type="search" placeholder="検索する" value="" name="s" id="s" />
-		<button type="submit" id="searchsubmit" ><i class="fa fa-search"></i></button>
-		</form></dd></dl></div>
-<button data-remodal-action="close" class="remodal-close"><span class="text gf">CLOSE</span></button>
-</div>
-
-
-
-
-
-
-
-
-<div id="breadcrumb" class="breadcrumb inner wrap cf"><ul itemscope itemtype="http://schema.org/BreadcrumbList"><li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="bc_homelink"><a itemprop="item" href="https://usjhack.com/"><span itemprop="name"> HOME</span></a><meta itemprop="position" content="1" /></li><li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemprop="item" href="https://usjhack.com/category/goods/"><span itemprop="name">グッズ</span></a><meta itemprop="position" content="2" /></li><li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="bc_posttitle"><span itemprop="name">【USJルパン三世グッズ2020】タオル、帽子、キーホルダー、ネクタイ、Tシャツ等のグッズを一挙ご紹介！</span><meta itemprop="position" content="3" /></li></ul></div>
-<div id="content">
-<div id="inner-content" class="wrap cf">
-
-<main id="main" class="m-all t-all d-5of7 cf" role="main">
-<article id="post-10326" class="post-10326 post type-post status-publish format-standard has-post-thumbnail hentry category-goods article cf" role="article">
-<header class="article-header entry-header">
-<p class="byline entry-meta vcard cf">
-<span class="cat-name cat-id-27">グッズ</span><time class="date gf entry-date updated"  datetime="2020-05-21">2020.05.21</time>
-
-<span class="writer name author"><span class="fn">早川 つかさ</span></span>
+<div id="blog">
+      <p>
+<font size="5">
+  ▶︎サイトを立ち上げたきっかけ<br>
+</font>
+      </p>
+                    <p>
+はじめまして。キリンとパスタ（特にカルボナーラ）が好きな絵描き男子、寺越きりんと申します。<br>
+                            </p>
+                                    <p>
+念願叶って、オリジナルのWebサイトを立ち上げることができました。<br>
+                                </p>
+                                        <p>
+アメーバブログでも良かったんですが、オリジナリティが出ないし自由度もないし、サイト訪問者（みなさん）との
+会話もできない（フォローしてね！ボタンも媚びてるみたいで嫌いでした(-_-;)）<br>
+                                </p>
+                                <p>
+たしかに今の時代、コーディングの腕前など関係なく『wix』や『Ameba』でサイトを立ち上げは誰でも簡単にできます。<br>
 </p>
+<p>
+でも、それはあくまで『wix』や『Ameba』という企業のもの。実際、Amebaブログの利用規約をみても「著作物の権利
+はAmebaに帰属」のようなことが書かれています。<br>
+</p>
+<p>
+それって自分のブログって言えるのか？？（汗）<br>
+</p>
+                                      <p>
+そう考えると、嫌になってぴったり3日目でAmebaブログをやめたんですよね。<br>
+</p>
+        <p>
+世の中に不満があるなら自分で変えるっきゃない！<br>
+                  </p>
+                          <p>
+そして最終的にこのサイトが爆誕したわけです。<br>
+                  </p>
+                      <p>
+やればできる子だったんですねψ(｀∇´)　ドヤドヤッ！<br>
+                              </p>
+                          <p>
+やってみてわかったのですが、やっぱりゼロからの独学って大変だと思うので、ボクがWebコーディングを独学した際に意識したこと少しだけ紹介したいと思います。<br>
+                      </p>
+                              <p>
+ぜひ参考にしてみてくださいヽ(´ー｀！ﾚｯﾂｺﾞｰ<br>
+                    </p>
+      <p>
+<font size="5">
+▶︎Web制作独学のススメ<br>
+</font>
+          </p>
+        <p>
+<font size="4">
+▶︎すでにサイトを持って運営している人に聞いてみる（一番オススメ＊）<br>
+</font>
+</p>
+        <p>
+もちろんボクでも構いませんが、すでにオンラインに居場所を作っている人に聞くのが一番です。<br>
+</p>
+        <p>
+いくら独学でコーディングを学習しても、感覚が追いついていないと意味がないので「ここはどーやるんですか？」
+とプロ（サイトを立ち上げている人）に、メールや質問フォームで聞いてみてください。<br>
+</p>
+        <p>
+断られることは絶対にないと思います。<br>
+</p>
+        <p>
+ココナラ依頼するという手もありますが、本当に長く続くサイトを本気で作りたいのであれば、オススメはできません(ｰ ｰ;)ｿｳﾅﾝﾀﾞﾖﾈｰ<br>
+</p>
+        <p>
+コーディングを知らないと、サイトの更新の仕方もわからないので。<br>
+</p>
+<p>
+<font size="4">
+▶︎付録（素材）付きの参考書を買う<br>
+</font>
+</p>
+        <p>
+参考書は、必ず商用利用可能なダウンロード素材がついているモノを買うべきです。<br>
+</p>
+        <p>
+なぜコーディングに挫折する人が多いかというと、大抵の人が参考書を買っても「最終的に完成させられない」から
+なんです。ボクも専門学校時代そうだったのでよくわかります。<br>
+</p>
+        <p>
+Webコーディングの参考書を買う際は、必ず「ダウンロード素材」が付録についたものを買ってください。（大事な
+ことなので二回言いました）<br>
+</p>
+        <p>
+中には商用利用ができない物も含まれている物もあるのでそこだけは注意してくださいねヾ(๑╹◡╹)ﾉ"ﾚｯﾂﾄﾗｲ！<br>
+</p>
+<p>
+<font size="4">
+  ▶︎既存のサイトを参考にする<br>
+</font>
+    </p>
 
-<h1 class="entry-title single-title" itemprop="headline" rel="bookmark">【USJルパン三世グッズ2020】タオル、帽子、キーホルダー、ネクタイ、Tシャツ等のグッズを一挙ご紹介！</h1>
+        <p>
+サイトのコードって表示できるんです。（知ってました？？）<br>
+</p>
+        <p>
+ブラウザはFIRE FOX（ファイアフォックス）がオススメ。構成を参考にしたいサイトに飛んで、ツール→ウェブ開発→ページのソース
+で表示できます。（ただし、丸パクリはNGなので注意です）<br>
+</p>
+        <p>
+コーディングの独学がめちゃくちゃ面倒で、大変なのは否定しませんがインターネットのなかに居場所をつくると、人生観が変わるのでぜひ参考書を
+購入してWebの勉強をしてくださいね (*´ω｀*)  ﾃﾞﾊﾏﾀ‼︎<br>
+    　　　　
+                    </p>
 
-<figure class="eyecatch">
-<img width="720" height="540" src="https://usjhack.com/wp/wp-content/uploads/2020/02/無題48-2.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" srcset="https://usjhack.com/wp/wp-content/uploads/2020/02/無題48-2.png 720w, https://usjhack.com/wp/wp-content/uploads/2020/02/無題48-2-300x225.png 300w" sizes="(max-width: 720px) 100vw, 720px" /></figure>
-<div class="share short">
-<div class="sns">
-
-
-</div></div>
 </div>
 
-<footer id="footer" class="footer wow animated fadeIn" role="contentinfo">
-	<div id="inner-footer" class="inner wrap cf">
 
-	
-		<div id="footer-top" class="cf">
-	
-											
-								
-							
-		</div>
+                </article>
 
-		
-	
-		<div id="footer-bottom">
-						<nav role="navigation">
-				<div class="footer-links cf"><ul id="menu-%e3%83%95%e3%83%83%e3%82%bf%e3%83%bc%e3%83%a1%e3%83%8b%e3%83%a5%e3%83%bc" class="footer-nav cf"><li id="menu-item-14" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14"><a href="https://usjhack.com/contact/">お問い合わせ</a></li>
-<li id="menu-item-690" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-690"><a target="_blank" rel="noopener noreferrer" href="https://twitter.com/usjhack">Twitter</a></li>
-<li id="menu-item-691" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-691"><a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/usjhack/">Facebook</a></li>
-<li id="menu-item-2055" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2055"><a href="https://www.instagram.com/usjhack/">Instagram</a></li>
-</ul></div>			</nav>
-						<p class="source-org copyright">&copy;Copyright2020 <a href="https://usjhack.com/" rel="nofollow">USJハック</a>.All Rights Reserved.</p>
-		</div>
-	</div>
-</footer>
-</div>
-<div id="page-top">
-	<a href="#header" class="pt-button" title="ページトップへ"></a>
-</div>
 
-<script>
-	jQuery(document).ready(function($) {
-		$(function() {
-		    var showFlag = false;
-		    var topBtn = $('#page-top');
-		    var showFlag = false;
-		
-		    $(window).scroll(function () {
-		        if ($(this).scrollTop() > 400) {
-		            if (showFlag == false) {
-		                showFlag = true;
-		                topBtn.stop().addClass('pt-active');
-		            }
-		        } else {
-		            if (showFlag) {
-		                showFlag = false;
-		                topBtn.stop().removeClass('pt-active');
-		            }
-		        }
-		    });
-		    // smooth scroll
-		    topBtn.click(function () {
-		        $('body,html').animate({
-		            scrollTop: 0
-		        }, 500);
-		        return false;
-		    });
-		});
-	  loadGravatars();
-	});
-</script>
-<script>
-$(function(){
-	$(".widget_categories li, .widget_nav_menu li").has("ul").toggleClass("accordionMenu");
-	$(".widget ul.children , .widget ul.sub-menu").after("<span class='accordionBtn'></span>");
-	$(".widget ul.children , .widget ul.sub-menu").hide();
-	$("ul .accordionBtn").on("click", function() {
-		$(this).prev("ul").slideToggle();
-		$(this).toggleClass("active");
-	});
-});
-</script><script type='text/javascript'>
-/* <![CDATA[ */
-var wpcf7 = {"apiSettings":{"root":"https:\/\/usjhack.com\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"}};
-/* ]]> */
-</script>
-<script type='text/javascript' src='https://usjhack.com/wp/wp-content/plugins/contact-form-7/includes/js/scripts.js'></script>
-<script type='text/javascript'>
-/* <![CDATA[ */
-var tocplus = {"visibility_show":"\u8868\u793a","visibility_hide":"\u975e\u8868\u793a","width":"Auto"};
-/* ]]> */
-</script>
-<script type='text/javascript' src='https://usjhack.com/wp/wp-content/plugins/table-of-contents-plus/front.min.js'></script>
-<script type='text/javascript' src='https://usjhack.com/wp/wp-content/themes/jstork/library/js/libs/slick.min.js'></script>
-<script type='text/javascript' src='https://usjhack.com/wp/wp-content/themes/jstork/library/js/libs/remodal.js'></script>
-<script type='text/javascript' src='https://usjhack.com/wp/wp-content/themes/jstork/library/js/libs/masonry.pkgd.min.js'></script>
-<script type='text/javascript' src='https://usjhack.com/wp/wp-includes/js/imagesloaded.min.js'></script>
-<script type='text/javascript' src='https://usjhack.com/wp/wp-content/themes/jstork/library/js/scripts.js'></script>
-<script type='text/javascript' src='https://usjhack.com/wp/wp-content/themes/jstork/library/js/libs/modernizr.custom.min.js'></script>
-<script type='text/javascript' src='https://usjhack.com/wp/wp-includes/js/wp-embed.min.js'></script>
-<script async="async" type='text/javascript' src='https://usjhack.com/wp/wp-content/plugins/akismet/_inc/form.js'></script>
-</body>
+            </article>
+
+
+
+                        <aside>
+                            <h3 class="sub-title">カテゴリー</h3>
+                            <ul class="sub-menu">
+                                <li><a href="#">ブログ/日記</a></li>
+                                <li><a href="#">活動日誌</a></li>
+                                <li><a href="#">イベント</a></li>
+                                <li><a href="#">＃レンタル絵描きさん</a></li>
+                            </ul>
+
+                            <p>
+                              <img src= "images/ aikons.png"alt=><br>
+                                              </p>
+
+
+                                              <p>
+                                                <img src= "images/aikons.png"alt=”100″class="yohaku1"><br>
+                                                                </p>
+
+
+
+
+                            <h3 class="sub-title">寺越きりん</h3>
+                            <p>
+                                キリンとパスタが大好きな20代男子。北海道浦河町生まれ。ユズ檸檬としても活動。専門学校に
+                                通うが難しすぎて挫折。それでもWEBサイトを立ち上げたい！という願いを実現すべく昨年から
+                                コーディングを独学でスタート。コーディングって楽しいと思える今日この頃。（ADHA・FTX）
+                                複数サイトを頑張って運営中。<br>
+                            </p>
+　<a class="twitter-timeline" data-lang="ja" data-width="231" data-height="315" data-theme="light" href="https://twitter.com/kewfubirdbot?ref_src=twsrc%5Etfw">Tweets by kewfubirdbot</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+                        </aside>
+
+
+                        <!-- ↓ この部分追加 ↓ -->
+                            <div class="ad">
+                                <img src="images/banner.jpg" alt="新メニュー登場">
+                            </div>
+
+
+
+
+
+                        <!-- ↑ ここまで追加 ↑ -->
+
+
+
+      </div><!-- /.news-contents -->
+
+
+
+
+      <footer>
+          <div class="wrapper">
+              <p><small>&copy; Copyright2020　Giraffe Moon city .All Rights Reserved. </small></p>
+          </div>
+      </footer>
+    </body>
+
 </html>
