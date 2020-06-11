@@ -634,3 +634,13 @@ input[type="submit"] {
     cursor: pointer;
     line-height: 1;
 }
+
+
+.demo1:hover{
+  color: #ff0000;
+}
+
+/*----------------------*/
+
+
+
